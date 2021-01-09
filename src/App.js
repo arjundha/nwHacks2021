@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import logo from './book.png';
 import './App.css';
+
+// import Button from 'react-bootstrap/Button'
+import { Button, Alert } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import SearchBar from './Components/searchbar';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <Alert>This is a button</Alert>
+        <Button>Test Button</Button>
+
         <SearchBar></SearchBar>
       </header>
     </div>
