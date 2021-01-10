@@ -42,7 +42,7 @@ function App() {
         
         
         <SearchBar placeholder_string = "Type the name of the book here!"></SearchBar>
-        <span></span>
+        <span>   </span>
         <Button>Search</Button>
         </Container>
       </header>
