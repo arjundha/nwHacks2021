@@ -4,6 +4,7 @@ import Home from "../src/Containers/Home";
 import TEST from "../src/Containers/TEST"
 import AddTime from "../src/Containers/AddTime"
 import AboutUs from "../src/Containers/AboutUs"
+import WheresTheFuckingBook from "../src/Containers/Book"
 
 export default function Routes() {
   return (
@@ -19,6 +20,9 @@ export default function Routes() {
       </Route>
       <Route exact path="/about">
         <AboutUs />
+      </Route>
+      <Route exact path="/book">
+        <WheresTheFuckingBook />
       </Route>
     </Switch>
   );
