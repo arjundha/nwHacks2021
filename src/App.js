@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import SearchBar from './Components/searchbar';
 import OurNav from './Components/Navbar'
-import OurCarousel from './Components/Carousel'
+
 
 // import { LinkContainer } from "react-router-bootstrap";
 
@@ -21,8 +21,6 @@ function App() {
     <div className="App">
 
       <OurNav></OurNav>
-
-      <OurCarousel></OurCarousel>
       
       <Routes />
 

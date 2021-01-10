@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import { Button, Alert, Container} from 'react-bootstrap';
+import { Button, Alert, Container } from 'react-bootstrap';
 import logo from '../book.png';
 import SearchBar from '../Components/searchbar';
 
@@ -11,7 +11,7 @@ export default function TEST() {
         <Container>
           <img src={logo} className="App-logo" alt="logo" />
 
-        <Alert>POOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOP</Alert>
+        <Alert>testtesttesttest</Alert>
         
         
         <SearchBar placeholder_string = "Type the name of the book here!"></SearchBar>

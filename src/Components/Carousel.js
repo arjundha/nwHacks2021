@@ -13,8 +13,8 @@ class OurCarousel extends React.Component {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Ever wonder how long it will take to finish a book?</h3>
+                        <p>Well not anymore!</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -26,8 +26,8 @@ class OurCarousel extends React.Component {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Never leave a book unread again</h3>
+                        <p>Start clearing your book shelf knowing exactly how long it will take.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -39,8 +39,8 @@ class OurCarousel extends React.Component {
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>Log your time</h3>
+                        <p>Contribute to our site by logging how long it took you to finish a book.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
