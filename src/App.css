@@ -4,6 +4,10 @@
 /* uranium blue BDE0FE */
 /* baby blue eyes A2D2FF */
 
+.Navbar {
+  background-color: #BDE0FE;
+}
+
 
 .App {
   text-align: center;
@@ -21,7 +25,9 @@
 }
 
 .App-header {
+
   background-color: #BDE0FE;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
