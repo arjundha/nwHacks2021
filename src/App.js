@@ -2,7 +2,7 @@ import logo from './book.png';
 import './App.css';
 
 // import Button from 'react-bootstrap/Button'
-import { Button, Alert, Container, Navbar, Nav, NavDropdown, Form, FormControl } from 'react-bootstrap';
+import { Button, Alert, Container, Navbar, Nav, NavDropdown, Form, FormControl, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SearchBar from './Components/searchbar';
 
@@ -34,16 +34,57 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
 
+      <Carousel classname="TheCarousel">
+        <Carousel.Item>
+          <img
+            // classname="forceSize"
+            className="d-flex w-100"
+            src="https://www.boylelibrary.ca/public/uploads/snippets/1593454196bannerimage/1595958236-1600w_595h_1593454196bannerimage.jpg"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            // classname="forceSize"
+            className="d-flex w-100"
+            src="https://public.oed.com/wp-content/uploads/rainbow-research-reading-blog-header-1130x400.jpg"
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            // classname="forceSize"
+            className="d-flex w-100"
+            src="https://www.detroitlabs.com/wp-content/uploads/2018/02/alfons-morales-YLSwjSy7stw-unsplash.jpg"
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+
       <header className="App-header">
         <Container>
           <img src={logo} className="App-logo" alt="logo" />
 
-        <Alert>Search a book to see how long it takes to read it!</Alert>
-        
-        
-        <SearchBar placeholder_string = "Type the name of the book here!"></SearchBar>
-        <span></span>
-        <Button>Search</Button>
+          <Alert>Search a book to see how long it takes to read it!</Alert>
+
+
+          <SearchBar placeholder_string="Type the name of the book here!"></SearchBar>
+          <span></span>
+          <Button>Search</Button>
         </Container>
       </header>
     </div>

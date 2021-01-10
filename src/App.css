@@ -16,6 +16,20 @@
   
 }
 
+.TheCarousel{
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.CarouselOne{
+  width: 100%;
+  height: 100px;
+}
+
+.forceSize{
+  width: 100%;
+  height: 10vh;
+}
 
 .App {
   text-align: center;
