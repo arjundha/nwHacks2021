@@ -4,7 +4,7 @@ import './App.css';
 // import Button from 'react-bootstrap/Button'
 import { Button, Alert, Container, Navbar, Nav, NavDropdown, Form, FormControl } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import SearchBar from './Components/searchbar';
+import SearchBar from './Components/nonconstsearchbar'
 
 
 function App() {
@@ -38,12 +38,12 @@ function App() {
         <Container>
           <img src={logo} className="App-logo" alt="logo" />
 
-          <Alert variant="primary">This is a button</Alert>
-          <br></br>
-          <Button>Test Button</Button>
-          <br></br>
-
-          <SearchBar></SearchBar>
+        <Alert>Search a book to see how long it takes to read it!</Alert>
+        
+        
+        <SearchBar placeholder_string = "Type the name of the book here!"></SearchBar>
+        <span></span>
+        <Button>Search</Button>
         </Container>
       </header>
     </div>
