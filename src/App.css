@@ -3,9 +3,19 @@
 /* nadeshiko pinnk FFAFCC */
 /* uranium blue BDE0FE */
 /* baby blue eyes A2D2FF */
+/* -------------------------- */
+/* black 000000 */
+/* oxford blue 14213D */
+/* orange web FCA311 */
+/* platinum E5E5E5 */
+/* white FFFFFF */
+/* dark cornflower blue 28427B */
 .Navbar {
   background-color: #BDE0FE;
+  color: #000000;
+  
 }
+
 
 .App {
   text-align: center;
@@ -23,7 +33,9 @@
 }
 
 .App-header {
-  background-color: #A2D2FF;
+
+  background-color: #BDE0FE;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;

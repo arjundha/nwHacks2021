@@ -4,7 +4,7 @@ import './App2.css';
 // import Button from 'react-bootstrap/Button'
 import { Button, Alert } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import SearchPage from './Components/searchpage';
+import SearchBar from './Components/searchbar';
 
 
 
