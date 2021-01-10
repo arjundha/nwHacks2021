@@ -17,7 +17,7 @@ function App() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/App.js">Home</Nav.Link>
-            <Nav.Link href="#link">Add a Book</Nav.Link>
+            <Nav.Link href="/">Add a Book</Nav.Link>
             <Nav.Link href="#link">Add Your Time</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

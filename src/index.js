@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import WheresTheFuckingBook from "./WheresTheFuckingBook";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <WheresTheFuckingBook />
   </React.StrictMode>,
   document.getElementById('root')
 );
