@@ -2,9 +2,9 @@ import logo from './book.png';
 import './App.css';
 
 // import Button from 'react-bootstrap/Button'
-import { Button, Alert, Container, Navbar, Nav, NavDropdown, Form, FormControl } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import SearchBar from './Components/nonconstsearchbar'
+import { Button, Alert, Container, Navbar, Nav, NavDropdown, Form, FormControl } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import SearchBar from './Components/searchbar';
 
 
 function App() {
