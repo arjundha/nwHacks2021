@@ -1,5 +1,5 @@
 import logo from './book.png';
-import './App2.css';
+import './readtime.css';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css'
