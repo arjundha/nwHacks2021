@@ -18,7 +18,9 @@ class OurNav extends React.Component{
                         <Nav.Link href="/App.js">Home</Nav.Link>
                         </LinkContainer>
                         <Nav.Link href="#link">Add a Book</Nav.Link>
-                        <Nav.Link href="/test">Add Your Time</Nav.Link>
+                        <LinkContainer to="/add">
+                        <Nav.Link href="/add">Add Your Time</Nav.Link>
+                        </LinkContainer>
                         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
