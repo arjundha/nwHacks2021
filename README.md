@@ -1,7 +1,7 @@
 # nwHacks2021
 
 ## Welcome to our How Long to Read app
-This app was created with React for the 2021 nwPlus hackathon. No one in the group had worked with React previously, so this served as great practice. To set-up the application to try it yoursel, and for more information, please follow this README.
+This app was created with React for the 2021 nwPlus hackathon. No one in the group had worked with React previously, so this served as great practice. To set-up the application to try it yourself, and for more information, please follow this README.
 
 ## Set-Up
 1. Download this repository to your own computer.
