@@ -4,7 +4,8 @@ import './App.css';
 // import Button from 'react-bootstrap/Button'
 import { Button, Alert, Container, Navbar, Nav, NavDropdown, Form, FormControl } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SearchBar from './Components/searchbar';
+import SearchBar from './Components/searchbar.js';
+import Footer from './Components/footer.js'
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
         </Container>
 
       </header>
+      <Footer></Footer>
     </div>
   );
 }
