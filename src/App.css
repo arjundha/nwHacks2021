@@ -16,6 +16,40 @@
   
 }
 
+.PeopleCards{
+  background-color: #CDB4DB;
+  color: #CDB4DB;
+}
+
+.foot{
+  background-color: #A2D2FF;
+}
+
+.About-us{
+  background-color: #CDB4DB;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.TheCarousel{
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.CarouselOne{
+  width: 100%;
+  height: 100px;
+}
+
+.forceSize{
+  width: 100%;
+  height: 10vh;
+}
 
 .App {
   text-align: center;
@@ -36,13 +70,24 @@
 
   background-color: #BDE0FE;
 
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+}
+
+.App-header-Kyla {
+  background-color: #FFAFCC;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:white;
 }
 
 .App-link {
