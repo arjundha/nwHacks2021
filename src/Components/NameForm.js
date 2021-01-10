@@ -12,17 +12,24 @@ class NameForm extends React.Component {
     handleChange(event) {
       this.setState({value: event.target.value});
     }
-  
+   
     handleSubmit(event) {
-      alert('Your time of : ' + this.state.value + ' hours was recorded');
-      event.preventDefault();
+      if (parseInt(this.state.value)) {
+        var response = Math.round(this.state.value)
+        alert('Your time of: ' + response + ' hours was recorded');
+        event.preventDefault();
+      }
+      else {
+        alert("Data is not acceptable! Try a positive integer of floating point number. Your response was not recorded.")
+      }
+      
     }
   
     render() {
       return (
         <form onSubmit={this.handleSubmit}>
           <label>
-            Hours it took to complete the book:
+            How many hours did it take you to complete the book?   
             <input type="text" value={this.state.value} onChange={this.handleChange} />
           </label>
           <input type="submit" value="Submit" />
