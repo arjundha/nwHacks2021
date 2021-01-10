@@ -1,9 +1,9 @@
 import React from 'react';
 import {Navbar, Button, Nav, NavDropdown, Form, FormControl} from 'react-bootstrap';
 // import { Switch, Route, Link } from 'react-router-dom';
-import Routes from "../Routes";
+// import Routes from "../Routes";
 import { LinkContainer } from "react-router-bootstrap";
-import { Route, Switch } from "react-router-dom";
+// import { Route, Switch } from "react-router-dom";
 
 class OurNav extends React.Component{
     render(){
