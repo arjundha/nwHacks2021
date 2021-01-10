@@ -17,7 +17,9 @@ class OurNav extends React.Component{
                         <LinkContainer to="/">
                         <Nav.Link href="/App.js">Home</Nav.Link>
                         </LinkContainer>
-                        <Nav.Link href="#link">Add a Book</Nav.Link>
+                        <LinkContainer to="/book">
+                        <Nav.Link href="/book">Add a Book</Nav.Link>
+                        </LinkContainer>
                         <LinkContainer to="/add">
                         <Nav.Link href="/add">Add Your Time</Nav.Link>
                         </LinkContainer>
