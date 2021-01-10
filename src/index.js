@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './FormPage';
 import reportWebVitals from './reportWebVitals';
-import Modal from "./Components/modal";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);

@@ -15,7 +15,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <Alert>This book takes ___ hours to read</Alert>
-        <Button variant="outline-primary">Add your time</Button>
+        <Button href = "./NameForm.js" variant="outline-primary">Add your time</Button>
       <Alert> Search Another Book</Alert>
       <SearchPage></SearchPage>
       </header>
