@@ -10,7 +10,7 @@ class OurNav extends React.Component{
         return(
             <div>
                     <Navbar className="Navbar" expand="lg">
-                    <Navbar.Brand href="./">Hi it's Arjun</Navbar.Brand>
+                    <Navbar.Brand href="./">HLTR?</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">

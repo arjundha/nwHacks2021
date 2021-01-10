@@ -30,7 +30,7 @@ class NameForm extends React.Component {
         <form onSubmit={this.handleSubmit}>
           <label>
             How many hours did it take you to complete the book?   
-            <input type="text" value={this.state.value} onChange={this.handleChange} />
+            <input type="number" value={this.state.value} onChange={this.handleChange} />
           </label>
           <input type="submit" value="Submit" />
         </form>
