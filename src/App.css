@@ -16,9 +16,13 @@
   
 }
 
+.foot{
+  background-color: #A2D2FF;
+}
+
 .About-us{
   background-color: #CDB4DB;
-  min-height: 80vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
