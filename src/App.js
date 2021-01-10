@@ -13,13 +13,13 @@ function App() {
 
     <div className="App">
       <Navbar className="Navbar" expand="lg">
-        <Navbar.Brand href="/App.js">Hi it's Arjun</Navbar.Brand>
+        <Navbar.Brand href="./App.js">Hi it's Arjun</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/App.js">Home</Nav.Link>
+            <Nav.Link href=".src/App.js">Home</Nav.Link>
             <Nav.Link href="#link">Add a Book</Nav.Link>
-            <Nav.Link href="#link">Add Your Time</Nav.Link>
+            <Nav.Link href="./App2.js">Add Your Time</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -46,6 +46,7 @@ function App() {
         <span>   </span>
         <Button>Search</Button>
         </Container>
+
       </header>
       <Footer></Footer>
     </div>
