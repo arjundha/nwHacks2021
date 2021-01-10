@@ -14,7 +14,7 @@ class NameForm extends React.Component {
     }
    
     handleSubmit(event) {
-      if (parseInt(this.state.value)) {
+      if (parseInt(this.state.value) && this.state.value > 0) {
         var response = Math.round(this.state.value)
         alert('Your time of: ' + response + ' hours was recorded');
         event.preventDefault();
