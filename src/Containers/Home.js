@@ -1,12 +1,14 @@
 import React from "react";
 import "../App.css";
-import { Button, Alert, Container} from 'react-bootstrap';
+import { Button, Alert, Container } from 'react-bootstrap';
 import logo from '../book.png';
 import SearchBar from '../Components/searchbar';
+import OurCarousel from '../Components/Carousel'
 
 export default function Home() {
   return (
-
+    <div>
+      <OurCarousel />
       <header className="App-header">
         <Container>
           <img src={logo} className="App-logo" alt="logo" />
@@ -20,6 +22,6 @@ export default function Home() {
         </Container>
 
       </header>
-
+    </div>
   );
 }
